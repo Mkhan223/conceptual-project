@@ -42,7 +42,7 @@ h1{
   font-size: 45px;
   padding-bottom: 10px;
 }
-p{
+.white{
   padding-bottom: 15px;
 }
 .btn-1{
@@ -67,6 +67,7 @@ p{
   justify-content: space-around;
   padding-left: 25px;
   padding-right: 25px;
+  padding-bottom: 25px;
   
 }
 .grow-band{
@@ -80,6 +81,7 @@ p{
 }
 .lorem{
   font-size: 15px;
+  margin-bottom: 15px;
 }
 .btn-2{
   background-color:rgb(255, 15, 23) ;
@@ -90,14 +92,36 @@ p{
  font-family: Arial;
  border-radius: 3px;
 }
-
-.services{
-  background-color: black;
+.our-service{
+  text-align: center;
+  margin-top:20px ;
   color: white;
-  display: flex;
-  
-  justify-content: space-around;
 }
-.d-art{
-  width: 70px;
+
+.service{
+  width:230px;
+  height: 310px;
+  color:white;
+ 
+  text-align: center;
+  padding: 15px;
+  box-shadow: 8px 8px 45px gray;
+
+}
+.icon{
+ width: 70px;
+ 
+}
+.service-container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.service-titel{
+  font-size: 24px;
+}
+.service-section{
+  background-image: url("/images/background.png"),
+  linear-gradient(90deg,rgb(8, 8, 8),rgb(31, 31, 31));
+  padding-bottom: 50px;
 }
