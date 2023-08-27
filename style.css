@@ -1,0 +1,103 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Times New Roman';
+}
+
+nav{
+  display: flex;
+  background-color: rgb(66, 65, 65);
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+
+}
+.logo-img{
+  width: 120px;
+}
+ul{
+  display: flex;
+}
+ul>li{
+  list-style: none;
+  color: white;
+  margin-left: 20px;
+}
+
+.banner-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(/images/background.png),
+  linear-gradient(45deg,rgb(8, 8, 8),rgb(31, 31, 31));
+  height: 100vh;
+}
+.banner-img{
+  width: 250px;
+}
+.introduction{
+  color:white;
+}
+h1{
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+p{
+  padding-bottom: 15px;
+}
+.btn-1{
+ background-color:rgb(255, 15, 23) ;
+ color: white;
+ border-style: solid;
+ padding: 10px 15px;
+ font-size: 10px;
+ border-radius: 5px;
+}
+.titel{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 45px;
+}
+.abt-img{
+  width: 300px;
+}
+.about-us{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+.grow-band{
+  color:black;
+  
+  
+}
+.creative{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.lorem{
+  font-size: 15px;
+}
+.btn-2{
+  background-color:rgb(255, 15, 23) ;
+ color: white;
+ font-size: 10px;
+ border: none;
+ padding: 10px 20px;
+ font-family: Arial;
+ border-radius: 3px;
+}
+
+.services{
+  background-color: black;
+  color: white;
+  display: flex;
+  
+  justify-content: space-around;
+}
+.d-art{
+  width: 70px;
+}
